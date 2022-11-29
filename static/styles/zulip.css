@@ -1252,11 +1252,12 @@ td.pointer {
     color: var(--color-default-text);
     opacity: 0.75;
     font-size: calc(15em / 14);
-    font-weight: 400;
+    font-weight: 500;
     padding: 3px 11px 2px 10px;
     line-height: 18px;
     text-align: right;
     font-variant: all-small-caps;
+    letter-spacing: 0.02em;
 
     &.hide-date {
         display: none;
@@ -1556,6 +1557,10 @@ div.message_table {
 
         span {
             opacity: 0.75;
+            font-weight: 500;
+            font-size: calc(15em / 14);
+            letter-spacing: 0.02em;
+            font-variant: all-small-caps;
         }
     }
 }
@@ -2632,7 +2637,6 @@ textarea.invitee_emails {
     padding: 4px;
     overflow: hidden;
     text-transform: uppercase;
-    font-size: 0.8em;
 }
 
 .sub-unsub-message .stream-status,
